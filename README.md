@@ -1,7 +1,6 @@
 # Phi-SegNet
-The manuscript is currently under review, source code will be updated soon.
-
 Clean PyTorch implementation of [**Phi-SegNet: Phase-Integrated Supervision for Medical Image Segmentation**](https://arxiv.org/abs/2601.16064).
+The manuscript is currently under review, source code will be updated soon.
 
 <br>
 
