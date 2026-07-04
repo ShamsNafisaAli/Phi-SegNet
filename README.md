@@ -6,7 +6,7 @@ Clean PyTorch implementation of [**Phi-SegNet: Phase-Integrated Supervision for 
 <br>
 
 <p align="center">
-  <img src="./assets/GA.jpg" alt="Phi-SegNet graphical abstract" width="850">
+  <img src="./GA.jpg" alt="Phi-SegNet graphical abstract" width="850">
 </p>
 
 <br>
