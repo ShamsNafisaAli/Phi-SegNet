@@ -1,1 +1,29 @@
+data:
+  train_image_dir: data/BUSI/Train/Main
+  train_mask_dir: data/BUSI/Train/Mask
+  val_image_dir: data/BUSI/Val/Main
+  val_mask_dir: data/BUSI/Val/Mask
+  image_size: 256
+
+model:
+  input_channels: 3
+  num_classes: 1
+  pretrained: true
+
+loss:
+  phase_weight: 0.01
+  jaccard_weight: 1.0
+  fft_size: [256, 256]
+
+train:
+  epochs: 150
+  batch_size: 4
+  val_batch_size: 1
+  num_workers: 2
+  lr: 0.00001
+  weight_decay: 0.0
+  scheduler_tmax: 25
+  min_lr: 0.0000001
+  device: cuda
+  save_dir: outputs/phisegnet_busi
 
