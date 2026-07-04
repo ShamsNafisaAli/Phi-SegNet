@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+.DS_Store
+
+# data and experiment outputs
+data/
+outputs/*
+!outputs/.gitkeep
+*.pth
+*.pt
+*.ckpt
+*.onnx
+results/
+runs/
