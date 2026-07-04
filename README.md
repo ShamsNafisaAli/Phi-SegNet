@@ -1,9 +1,13 @@
 # Phi-SegNet
 The manuscript is currently under review, source code will be updated soon.
 
-
+<br>
 Clean PyTorch implementation of [**Phi-SegNet: Phase-Integrated Supervision for Medical Image Segmentation**](https://arxiv.org/abs/2601.16064).
 
+<p align="center">
+  <img src="assets/GA.jpg" alt="Phi-SegNet graphical abstract" width="850">
+</p>
+<br>
 The repository is intentionally compact. The main components can be copied independently into another project:
 
 ```text
@@ -121,6 +125,7 @@ loss, loss_dict = criterion(logits, decoder_layers, masks)
 ## Citation
 
 Please cite the paper if this code helps your research.
+```bibtex
 @article{ali2026phisegnet,
   title={Phi-SegNet: Phase-Integrated Supervision for Medical Image Segmentation},
   author={Ali, Shams Nafisa and Hasan, Taufiq},
@@ -128,5 +133,5 @@ Please cite the paper if this code helps your research.
   year={2026},
   url={https://arxiv.org/abs/2601.16064}
 }
-
+```
 
